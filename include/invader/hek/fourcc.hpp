@@ -307,7 +307,7 @@ namespace Invader::HEK {
          case TagFourCC::TAG_FOURCC_WEAPON_HUD_INTERFACE:
              return "weapon_hud_interface";
          case TagFourCC::TAG_FOURCC_NULL:
-             break;
+             return "null";
          }
          return "unknown";
      }
